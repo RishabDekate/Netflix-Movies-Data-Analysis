@@ -21,10 +21,21 @@ Netflix is known for its work in data science, AI, and ML, particularly for buil
 
 ## Data Preprocessing
 
+After looking at the dataset, we started cleaning the data as it required before analysis check their data type and for any duplicates in the set. Then dropped three columns as they had no use in our analysis, and convert Vote_Average column from integer data type to object data type by replacing the vote avg. no into specified range of classes. Also spereated the genre column to get 1 genre at 1 time. 
 
 ## Insights and data interpretation
 
+- As per our requirement, a bar graph was plotted, where we got that 'Drama' genre is most frequently released and 'Western' is least released on Netflix.
+- As per analysis, in the Vote_Average column most users rated movies as 'Average' which was analyzed using bar graph.
+- The movie that got the highest popularity as per analysis is 'SpiderMan: No Way Home' and the genre was 'Action, Adventure and Science Fiction'.
+- The movie that got the lowest popularity as per the analysis are 'The United States vs. Billie Holiday' & 'Threads' with the genre of ' Music, Drama , History War, and Science Fiction'.
+- The year that filmmed most movies as per our analysis was 2020, which was analysed using histogram graph.
 
 ### Key Findings 
 
+- Drama genre is the most frequent genre in our dataset and has appeared more than 14%of the times among 19 other genre.
+- We have 25.5% of our dataset with popular vote (6520 rows).Drama again gets the highest popularity among fans by having more than 18.5% of movies popularities.
+- Spiderman: No Way Home has the highest popularity rate in our dataset and it has genre of Action, Adventure and Science Fiction.
+- The United States vs. Billie Holiday, threads has the lowest popularity rate in our dataset and it has genre of music, drama, war,sci-fi, and history.
+- The year 2020 has the highest rate of filmming rate in our dataset.
 
